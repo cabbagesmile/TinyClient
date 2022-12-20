@@ -36,3 +36,8 @@ electron-packager <location of project> <name of project> <platform> <architectu
 
 ## License
 [GPL License](https://www.gnu.org/licenses/gpl.html)
+
+本项目是基于TinyClient进行的二次开发。 原来的版本不支持自动换key,而且日志打印的不是很流畅。
+1、自动校验key值，key值无效后自动更换为下一个。 
+2、在压缩过程中，如果出现失败，最终会生成一个压缩失败的文件夹，将失败的图片复制进去。
+
